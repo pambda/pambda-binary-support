@@ -11,8 +11,8 @@ npm i pambda-binary-support -S
 ## Usage
 
 ``` javascript
-import { compose, createLambda } from 'pambda';
-import { binarySupport } from 'pambda-binary-support';
+const { compose, createLambda } = require('pambda');
+const { binarySupport } = require('pambda-binary-support');
 
 export const handler = createLambda(
   compose(
