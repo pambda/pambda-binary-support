@@ -12,7 +12,6 @@
     "lambda-callbackify": "0.0.1"
   },
   "devDependencies": {
-    "eslint": "^4.18.2",
     "tape": "^4.9.0"
   },
   "homepage": "https://github.com/pambda/pambda-binary-support",
@@ -28,8 +27,7 @@
     "url": "git+https://github.com/pambda/pambda-binary-support.git"
   },
   "scripts": {
-    "lint": "eslint lib",
-    "prepublishOnly": "npm run lint && npm test",
+    "prepublishOnly": "npm test",
     "test": "tape test/test*.js"
   },
   "files": [
